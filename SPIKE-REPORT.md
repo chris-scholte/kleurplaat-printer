@@ -3,7 +3,7 @@
 > Results from the two de-risking spikes called out in `DESIGN.md > The Assignment`.
 
 **Date:** 2026-06-15
-**Status:** Part 1 (content sourcing) DONE • Part 2 (AirPrint silent print) HANDED OFF — needs Chris to run
+**Status:** Part 1 (content sourcing) DONE • Part 2 (AirPrint silent print) DONE — passed on Chris's hardware
 
 ---
 
@@ -71,51 +71,38 @@ Pipeline lives in this conversation's bash history — easy to re-run / extend t
 
 ---
 
-## Part 2: AirPrint silent-print test — HANDED OFF
+## Part 2: AirPrint silent-print test — DONE
 
-### Why I can't run it
+### Headline
 
-This test needs:
-- Your physical AirPrint printer
-- An iPad or iPhone on your Wi-Fi
-- Xcode 16+ on your Mac
-- You watching whether a dialog appears
+The silent-print path works on Chris's local AirPrint setup. A page prints without any iOS print confirmation dialog after the one-time printer selection step.
 
-None of these are something I can drive autonomously.
+### Result
 
-### What's ready for you
+| Field | Value |
+|---|---|
+| Result | PASS |
+| Dialog shown during silent print | No |
+| Printer make/model | Not recorded |
+| iOS version | Not recorded |
+| Time-to-print | Not recorded |
+| Reported date | 2026-06-18 |
 
-`airprint-spike/` contains:
-- `ContentView.swift` — a self-contained SwiftUI app with two buttons: pick printer, silent-print test PDF
-- `README.md` — step-by-step setup (5 min), test protocol with PASS / PARTIAL PASS / FAIL criteria, and fallback options if it FAILs
+### What this validates
 
-### The test in one sentence
-
-Tap "Pick Printer" once (dialog is expected — this is the one-time parent setup). Tap "Silent Print Test Page". If a page comes out of your printer *without a confirmation dialog appearing*, the core UX is feasible. If a dialog appears, the design needs to change.
-
-### What I expect
-
-`UIPrintInteractionController.print(to: UIPrinter, completionHandler:)` is documented to print without UI when given a known `UIPrinter`. In practice this works on the vast majority of modern AirPrint printers. The risk is non-zero but low.
-
-### What to report back
-
-- Printer make/model + iOS version (calibrates the result for the README)
-- PASS / PARTIAL / FAIL + any error message verbatim
-- Time-to-print (seconds from button tap to paper coming out)
+The central v1 premise from `DESIGN.md` is feasible: a kid can tap a page and have paper come out without interacting with a print dialog, provided a parent has already configured the default printer.
 
 ---
 
 ## Recommendation
 
-**Do not start the Xcode project skeleton yet.** Run the AirPrint test first. The whole "kid taps picture → paper" pitch lives or dies on that one verb (silent-print). If it works, the design is unchanged. If it doesn't, we need to talk before any real code gets written — Approach C (kiosk with one tap per session) or a fallback design becomes the new v1.
-
-After AirPrint passes, the next concrete step is: source another 30-70 pages (NPS catalog is the cheapest path) + crop the 5 NPS Chesapeake pages already downloaded.
+The design can proceed unchanged. The next concrete product step is to set up the real Xcode project skeleton and wire the validated silent-print path behind a small app-facing printing service.
 
 ---
 
 ## Status
 
 - **Part 1 (content sourcing):** DONE — 29 v1-ready pages + 5 usable-with-crop, sourcing pipeline validated.
-- **Part 2 (AirPrint test):** NEEDS_USER_ACTION — playground in `airprint-spike/`, ~10 minutes to run.
+- **Part 2 (AirPrint test):** DONE — silent print works without a dialog on Chris's hardware.
 
-**Recommended next move:** open `airprint-spike/README.md`, run the test, report back.
+**Recommended next move:** start the real iOS project skeleton and carry over the silent-print behavior as production code, not the throwaway spike file.

@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		900000000000000000000101 /* KleurplaatPrinterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900000000000000000000201 /* KleurplaatPrinterApp.swift */; };
+		900000000000000000000102 /* AppRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900000000000000000000202 /* AppRootView.swift */; };
+		900000000000000000000103 /* ColoringPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900000000000000000000203 /* ColoringPage.swift */; };
+		900000000000000000000104 /* KidModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900000000000000000000204 /* KidModeView.swift */; };
+		900000000000000000000105 /* ParentAccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900000000000000000000205 /* ParentAccessView.swift */; };
+		900000000000000000000106 /* ParentSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900000000000000000000206 /* ParentSettingsView.swift */; };
+		900000000000000000000107 /* AirPrintService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900000000000000000000207 /* AirPrintService.swift */; };
+		900000000000000000000108 /* PrintEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900000000000000000000208 /* PrintEvent.swift */; };
+		900000000000000000000110 /* PreviewSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900000000000000000000212 /* PreviewSupport.swift */; };
+		900000000000000000000111 /* ContentManifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 900000000000000000000213 /* ContentManifest.json */; };
+		900000000000000000000112 /* generated-v2 in Resources */ = {isa = PBXBuildFile; fileRef = 900000000000000000000214 /* generated-v2 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		900000000000000000000201 /* KleurplaatPrinterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KleurplaatPrinterApp.swift; sourceTree = "<group>"; };
+		900000000000000000000202 /* AppRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRootView.swift; sourceTree = "<group>"; };
+		900000000000000000000203 /* ColoringPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoringPage.swift; sourceTree = "<group>"; };
+		900000000000000000000204 /* KidModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidModeView.swift; sourceTree = "<group>"; };
+		900000000000000000000205 /* ParentAccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentAccessView.swift; sourceTree = "<group>"; };
+		900000000000000000000206 /* ParentSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentSettingsView.swift; sourceTree = "<group>"; };
+		900000000000000000000207 /* AirPrintService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirPrintService.swift; sourceTree = "<group>"; };
+		900000000000000000000208 /* PrintEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintEvent.swift; sourceTree = "<group>"; };
+		900000000000000000000210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		900000000000000000000211 /* KleurplaatPrinter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KleurplaatPrinter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		900000000000000000000212 /* PreviewSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewSupport.swift; sourceTree = "<group>"; };
+		900000000000000000000213 /* ContentManifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ContentManifest.json; sourceTree = "<group>"; };
+		900000000000000000000214 /* generated-v2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "generated-v2"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		900000000000000000000301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		900000000000000000000401 = {
+			isa = PBXGroup;
+			children = (
+				900000000000000000000402 /* KleurplaatPrinter */,
+				900000000000000000000403 /* Resources */,
+				900000000000000000000404 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		900000000000000000000402 /* KleurplaatPrinter */ = {
+			isa = PBXGroup;
+			children = (
+				900000000000000000000405 /* App */,
+				900000000000000000000406 /* KidMode */,
+				900000000000000000000407 /* ParentMode */,
+				900000000000000000000408 /* Printing */,
+				900000000000000000000409 /* Content */,
+				900000000000000000000410 /* Persistence */,
+			);
+			path = KleurplaatPrinter;
+			sourceTree = "<group>";
+		};
+		900000000000000000000403 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		900000000000000000000404 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				900000000000000000000211 /* KleurplaatPrinter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		900000000000000000000405 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				900000000000000000000201 /* KleurplaatPrinterApp.swift */,
+				900000000000000000000202 /* AppRootView.swift */,
+				900000000000000000000210 /* Info.plist */,
+				900000000000000000000212 /* PreviewSupport.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		900000000000000000000406 /* KidMode */ = {
+			isa = PBXGroup;
+			children = (
+				900000000000000000000204 /* KidModeView.swift */,
+			);
+			path = KidMode;
+			sourceTree = "<group>";
+		};
+		900000000000000000000407 /* ParentMode */ = {
+			isa = PBXGroup;
+			children = (
+				900000000000000000000205 /* ParentAccessView.swift */,
+				900000000000000000000206 /* ParentSettingsView.swift */,
+			);
+			path = ParentMode;
+			sourceTree = "<group>";
+		};
+		900000000000000000000408 /* Printing */ = {
+			isa = PBXGroup;
+			children = (
+				900000000000000000000207 /* AirPrintService.swift */,
+			);
+			path = Printing;
+			sourceTree = "<group>";
+		};
+		900000000000000000000409 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				900000000000000000000203 /* ColoringPage.swift */,
+				900000000000000000000213 /* ContentManifest.json */,
+				900000000000000000000214 /* generated-v2 */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		900000000000000000000410 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				900000000000000000000208 /* PrintEvent.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		900000000000000000000501 /* KleurplaatPrinter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900000000000000000000901 /* Build configuration list for PBXNativeTarget "KleurplaatPrinter" */;
+			buildPhases = (
+				900000000000000000000601 /* Sources */,
+				900000000000000000000301 /* Frameworks */,
+				900000000000000000000602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KleurplaatPrinter;
+			productName = KleurplaatPrinter;
+			productReference = 900000000000000000000211 /* KleurplaatPrinter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		900000000000000000000701 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					900000000000000000000501 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+				};
+			};
+			buildConfigurationList = 900000000000000000000902 /* Build configuration list for PBXProject "KleurplaatPrinter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 900000000000000000000401;
+			productRefGroup = 900000000000000000000404 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				900000000000000000000501 /* KleurplaatPrinter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		900000000000000000000602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900000000000000000000111 /* ContentManifest.json in Resources */,
+				900000000000000000000112 /* generated-v2 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		900000000000000000000601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900000000000000000000101 /* KleurplaatPrinterApp.swift in Sources */,
+				900000000000000000000102 /* AppRootView.swift in Sources */,
+				900000000000000000000103 /* ColoringPage.swift in Sources */,
+				900000000000000000000104 /* KidModeView.swift in Sources */,
+				900000000000000000000105 /* ParentAccessView.swift in Sources */,
+				900000000000000000000106 /* ParentSettingsView.swift in Sources */,
+				900000000000000000000107 /* AirPrintService.swift in Sources */,
+				900000000000000000000108 /* PrintEvent.swift in Sources */,
+				900000000000000000000110 /* PreviewSupport.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		900000000000000000000801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		900000000000000000000802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		900000000000000000000803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S5V2WJ9U98;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = KleurplaatPrinter/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.chrisscholte.kleurplaatprinter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		900000000000000000000804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S5V2WJ9U98;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = KleurplaatPrinter/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.chrisscholte.kleurplaatprinter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		900000000000000000000901 /* Build configuration list for PBXNativeTarget "KleurplaatPrinter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900000000000000000000803 /* Debug */,
+				900000000000000000000804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		900000000000000000000902 /* Build configuration list for PBXProject "KleurplaatPrinter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900000000000000000000801 /* Debug */,
+				900000000000000000000802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 900000000000000000000701 /* Project object */;
+}

@@ -9,6 +9,9 @@ xcuserdata/
 *.xcscmblueprint
 *.xccheckout
 
+# Deprecated generated app content
+KleurplaatPrinter/Content/generated-v1/
+
 # Swift Package Manager
 .swiftpm/
 .build/

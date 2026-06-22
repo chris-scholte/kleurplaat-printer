@@ -1,0 +1,176 @@
+{
+  "ageGroups": [
+    {
+      "id": "ages-4-5",
+      "title": "Ages 4-5",
+      "subtitle": "Big shapes, bold outlines",
+      "styleName": "Bold cartoon and rounded cute"
+    },
+    {
+      "id": "ages-6-7",
+      "title": "Ages 6-7",
+      "subtitle": "More scene detail",
+      "styleName": "Geometric and storybook"
+    },
+    {
+      "id": "ages-8-9",
+      "title": "Ages 8-9",
+      "subtitle": "Patterns and finer details",
+      "styleName": "Doodle pattern and detailed storybook"
+    }
+  ],
+  "categories": [
+    {
+      "id": "animals",
+      "title": "Animals",
+      "symbolName": "pawprint.fill",
+      "colorName": "green"
+    },
+    {
+      "id": "vehicles",
+      "title": "Vehicles",
+      "symbolName": "car.fill",
+      "colorName": "orange"
+    },
+    {
+      "id": "ocean",
+      "title": "Ocean",
+      "symbolName": "water.waves",
+      "colorName": "blue"
+    },
+    {
+      "id": "princesses",
+      "title": "Princesses",
+      "symbolName": "crown.fill",
+      "colorName": "pink"
+    },
+    {
+      "id": "space",
+      "title": "Space",
+      "symbolName": "moon.stars.fill",
+      "colorName": "indigo"
+    },
+    {
+      "id": "fantasy",
+      "title": "Fantasy",
+      "symbolName": "sparkles",
+      "colorName": "purple"
+    },
+    {
+      "id": "nature",
+      "title": "Nature",
+      "symbolName": "leaf.fill",
+      "colorName": "teal"
+    }
+  ],
+  "pages": [
+    {
+      "id": "animals-ages-4-5-lion",
+      "title": "Lion",
+      "categoryID": "animals",
+      "ageGroupID": "ages-4-5",
+      "filename": "animals/ages-4-5/lion.png",
+      "mime": "image/png",
+      "license": "Generated pilot content",
+      "licenseURL": "",
+      "artist": "OpenAI image generation",
+      "source": "content-pack/generated-v2/pilot"
+    },
+    {
+      "id": "animals-ages-6-7-lion",
+      "title": "Lion",
+      "categoryID": "animals",
+      "ageGroupID": "ages-6-7",
+      "filename": "animals/ages-6-7/lion.png",
+      "mime": "image/png",
+      "license": "Generated pilot content",
+      "licenseURL": "",
+      "artist": "OpenAI image generation",
+      "source": "content-pack/generated-v2/pilot"
+    },
+    {
+      "id": "animals-ages-8-9-lion",
+      "title": "Lion",
+      "categoryID": "animals",
+      "ageGroupID": "ages-8-9",
+      "filename": "animals/ages-8-9/lion.png",
+      "mime": "image/png",
+      "license": "Generated pilot content",
+      "licenseURL": "",
+      "artist": "OpenAI image generation",
+      "source": "content-pack/generated-v2/pilot"
+    },
+    {
+      "id": "space-ages-4-5-rocket",
+      "title": "Rocket",
+      "categoryID": "space",
+      "ageGroupID": "ages-4-5",
+      "filename": "space/ages-4-5/rocket.png",
+      "mime": "image/png",
+      "license": "Generated pilot content",
+      "licenseURL": "",
+      "artist": "OpenAI image generation",
+      "source": "content-pack/generated-v2/pilot"
+    },
+    {
+      "id": "space-ages-6-7-rocket",
+      "title": "Rocket",
+      "categoryID": "space",
+      "ageGroupID": "ages-6-7",
+      "filename": "space/ages-6-7/rocket.png",
+      "mime": "image/png",
+      "license": "Generated pilot content",
+      "licenseURL": "",
+      "artist": "OpenAI image generation",
+      "source": "content-pack/generated-v2/pilot"
+    },
+    {
+      "id": "space-ages-8-9-rocket",
+      "title": "Rocket",
+      "categoryID": "space",
+      "ageGroupID": "ages-8-9",
+      "filename": "space/ages-8-9/rocket.png",
+      "mime": "image/png",
+      "license": "Generated pilot content",
+      "licenseURL": "",
+      "artist": "OpenAI image generation",
+      "source": "content-pack/generated-v2/pilot"
+    },
+    {
+      "id": "princesses-ages-4-5-princess",
+      "title": "Princess",
+      "categoryID": "princesses",
+      "ageGroupID": "ages-4-5",
+      "filename": "princesses/ages-4-5/princess.png",
+      "mime": "image/png",
+      "license": "Generated pilot content",
+      "licenseURL": "",
+      "artist": "OpenAI image generation",
+      "source": "content-pack/generated-v2/pilot"
+    },
+    {
+      "id": "princesses-ages-6-7-princess",
+      "title": "Princess",
+      "categoryID": "princesses",
+      "ageGroupID": "ages-6-7",
+      "filename": "princesses/ages-6-7/princess.png",
+      "mime": "image/png",
+      "license": "Generated pilot content",
+      "licenseURL": "",
+      "artist": "OpenAI image generation",
+      "source": "content-pack/generated-v2/pilot"
+    },
+    {
+      "id": "princesses-ages-8-9-princess",
+      "title": "Princess",
+      "categoryID": "princesses",
+      "ageGroupID": "ages-8-9",
+      "filename": "princesses/ages-8-9/princess.png",
+      "mime": "image/png",
+      "license": "Generated pilot content",
+      "licenseURL": "",
+      "artist": "OpenAI image generation",
+      "source": "content-pack/generated-v2/pilot"
+    }
+  ]
+}
